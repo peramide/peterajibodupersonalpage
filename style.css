@@ -502,10 +502,13 @@ form input, form textarea {
 .show { opacity: 1; transform: translateY(0); }
 
 /* ---------- RESPONSIVE ---------- */
+/* ---------- RESPONSIVE ---------- */
 @media screen and (max-width: 768px) {
     .header-content { flex-direction: column-reverse; text-align: center; justify-content: center; }
     .header-text h1 { font-size: 40px; }
     .img-box { margin-bottom: 30px; }
+    
+    /* Navbar Mobile Styles */
     nav .fa-bars { display: block; font-size: 25px; cursor: pointer; color: #fff;}
     nav ul {
         position: fixed;
@@ -515,9 +518,38 @@ form input, form textarea {
         padding-top: 50px;
         transition: 0.3s;
         display: block;
+        z-index: 1001; /* Ensure menu is on top */
     }
     nav ul li { display: block; margin: 25px; }
     nav ul .fa-times { display: block; position: absolute; top: 25px; left: 25px; cursor: pointer; color: #fff; font-size: 25px;}
-    .row { flex-direction: column; }
+    
+    /* --- FIX FOR ABOUT SECTION OVERLAP --- */
+    .row { 
+        flex-direction: column; 
+        gap: 0; /* Reset gap, use margin instead for control */
+    }
+    
+    /* Ensure columns take full width on mobile */
+    .about-col-1, .about-col-2, .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+
+    /* Add space below the image column so it doesn't overlap text */
+    .about-col-1 {
+        margin-bottom: 50px;
+    }
+    
+    /* Optional: Constrain image height if it's still too "long" on mobile */
+    .about-col-1 img {
+         max-height: 500px; /* Adjust this value as preferred */
+         object-fit: cover; /* Ensures image doesn't stretch */
+         object-position: top center;
+    }
+
+    /* Contact section spacing fix */
+    .contact-left {
+        margin-bottom: 50px;
+    }
+
     .timeline-container { margin-left: 0; }
 }
