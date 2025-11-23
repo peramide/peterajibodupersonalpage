@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Ajibodu | Researcher & Programmer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e604000f70.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="container nav-flex">
+            <h2 class="logo">Peter<span>.</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#timeline">Journey</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#publications">Research</a></li>
+                <li><a href="#publications">Teaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container header-content">
+            <div class="header-text">
+                <h3>Hello, I'm</h3>
+                <h1>Peter Ajibodu</h1>
+                <p>Bridging the gap between <span class="highlight">Drug Research, Organic Syntheses</span> and <span class="highlight">Artificial Intelligence</span>.</p>
+                <div class="typing-container">
+                    I am a <span class="type-text"></span>
+                </div>
+                <div class="btn-group">
+                    <a href="#portfolio" class="btn">View Code</a>
+                    <a href="#publications" class="btn btn-secondary">View Research</a>
+                </div>
+                
+                <div class="social-header">
+                    <a href="https://github.com/peramide" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://youtube.com/@peter_academy" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="mailto:pajibodu609@stu.ui.edu.ng"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="header-img">
+                <div class="img-box">
+                    <img src="img/image.png" alt="Peter Ajibodu">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h1 class="sub-title">About Me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/about-me.jpg" alt="Peter working">
+                </div>
+                <div class="about-col-2">
+                    <p class="lead-text">
+                        I am a First Class Honours graduate in Industrial Chemistry from the <strong>University of Ibadan</strong> with a passion for multidisciplinary drug discovery research. 
+                    </p>
+                    <p>
+                        My undergraduate research explored the therapeutic potential of natural products and their wound-healing activity, which strengthened my interest in health-related material design. I have some hands-on analytical experience during my internship at the National Agency for Food and Drug Administration and Control (NAFDAC), Lagos, and through my current role as a Graduate Research Intern at the University of Abuja., I solve problems at the intersection of <strong>Science and Technology</strong>.
+                    </p>
+
+                    <div class="stats-container">
+                        <div class="stat-box">
+                            <h3>3.58/4.0</h3>
+                            <p>CGPA (Top 3%)</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>700+</h3>
+                            <p>Students Taught</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>4+</h3>
+                            <p>Research Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="expertise-grid">
+                <div class="expert-card code-card hidden">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Computer Science & AI</h2>
+                    <p>Building intelligent systems and solving computational problems.</p>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Machine Learning (HMM, Bayesian Networks)</li>
+                        <li>Search Algorithms (A*, Minimax)</li>
+                        <li>Web Development (HTML/CSS/JS)</li>
+                        <li>C & JavaScript</li>
+                    </ul>
+                </div>
+                
+                <div class="expert-card chem-card hidden">
+                    <i class="fa-solid fa-flask"></i>
+                    <h2>Industrial Chemistry</h2>
+                    <p>Advanced chemical analysis and material science research.</p>
+                    <ul class="skill-list">
+                        <li>Instrumental Analysis (GC-MS, FT-IR, UV-Vis)</li>
+                        <li>Phytochemical Extraction</li>
+                        <li>Quality Control (NAFDAC Standards)</li>
+                        <li>Wound Healing Models</li>
+                        <li>Toxicology & Safety Protocols</li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline">
+        <div class="container">
+            <h1 class="sub-title">My Journey</h1>
+            <div class="timeline-container">
+                
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - till date</div>
+                    <div class="timeline-content">
+                        <h3>Research Assistant</h3>
+                        <h4>Department of Chemistry, University of Abuja</h4>
+                        <p>Assisted in the design and execution of analytical experiments. And support for undergraduate students' project works</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2024 - Feb 2025</div>
+                    <div class="timeline-content">
+                        <h3>Undergraduate Research</h3>
+                        <h4>Dept. of Chemistry, University of Ibadan</h4>
+                        <p>Thesis: <em>FT-IR, UV-Visible, GC-MS </em> analyses and wound healing evaluation of corn cob extract from ethyl acetate in Wistar rats.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2024 - Jun 2024</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>NAFDAC Central Laboratory, Oshodi, Lagos</h4>
+                        <p>Rotated through Food Compliance and Pesticide Labs. Analyzed samples using HPLC and GC-FID to verify regulatory compliance.</p>
+                        <p>Engaged in the identification and quantification of chemical compounds in food samples, food additives, contaminants and pesticides using analytical instrumentation like GC-MS, GC-FID, HPLC.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2023 - Jun 2023</div>
+                    <div class="timeline-content">
+                        <h3>Research Intern</h3>
+                        <h4>T & D Analytical Laboratories and Consultancy Service</h4>
+                        <p>Chemical, Biochemical and Microbial Analyses Lab </p>
+                        
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Apr 2022 - Jun 2022</div>
+                    <div class="timeline-content">
+                        <h3>Practical Session</h3>
+                        <h4>Organic Chemistry Unit, Department of Chemistry, UI</h4>
+                        <p>- Completed a 10-week training in organic synthesis and qualitative organic analysis </p>
+                        <p>- Performed classical organic preparations - Friedel-Crafts acylation of Benzene to Benzenephenone, Perkin reaction involving the preparation of cinnamic acid. Preparation of m-Nitroaniline. Preparation of Triphenylcarbinol by the use of Grignard reagents. </p>
+                        <p>- Conducted qualitative identification of unknown organic compounds using preliminary tests (ignition, solubility, sodium fusion tests) and confirmatory tests for specific functional groups - amines, phenols, aldehydes. </p>
+                        <p>- Gained experience in derivative preparation techniques to confirm the identities of esters, nitro compounds and primary amines.</p>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Technical Projects</h1>
+            <div class="work-list">
+                
+                <div class="work hidden">
+                    <div class="work-info">
+                        <h3>Soil Pollution HMM</h3>
+                        <p>Modeled soil pollution levels using Hidden Markov Models to estimate true pollution from noisy sensor data using Viterbi algorithms.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Probability</span><span>AI</span>
+                        </div>
+                        <a href="https://github.com/peramide" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work hidden">
+                    <div class="work-info">
+                        <h3>Unbeatable Tic-Tac-Toe</h3>
+                        <p>An AI agent using the Minimax algorithm that plays optimally. Includes move evaluation and state tracking.</p>
+                        <div class="tags">
+                            <span>AI</span><span>Minimax</span><span>Game Theory</span>
+                        </div>
+                        <a href="https://peramide.github.io/tictactoe/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work hidden">
+                    <div class="work-info">
+                        <h3>Hereditary (Bayesian Network)</h3>
+                        <p>AI model assessing the likelihood of genetic trait inheritance using Bayesian networks to infer probabilities.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Bayesian Model</span>
+                        </div>
+                        <a href="https://github.com/peramide" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/peramide" class="btn see-more">See More on GitHub</a>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <h1 class="sub-title">Research & Talks</h1>
+            <div class="pub-grid">
+                <div class="pub-card">
+                    <i class="fa-solid fa-scroll"></i>
+                    <h3>Publications</h3>
+                    <p><strong>Ajibodu, P. A.</strong>, Ajayi, I. A., & Olaifa, O. (2025). <em>FT-IR, UV-Visible, GC-MS analyses and wound healing evaluation of corn cob extract.</em>(Under Review).</p>
+                </div>
+                
+                <div class="pub-card">
+                    <i class="fa-solid fa-microphone"></i>
+                    <h3>Research Presentation</h3>
+                    <p>Commonwealth Conference for Early Career Scientist.</p>
+                    <p><i>Oct 1-2, 2025</i></p>
+                    <a href="https://epostersonline.com/cwcp2025/node/564" target="_blank">Watch Presentation <i class="fa-solid fa-external-link"></i></a>
+                </div>
+                
+                
+                <div class="pub-card">
+                    <i class="fa-solid fa-microphone"></i>
+                    <h3>Talks & Teaching</h3>
+                    <p>Founder of <strong>Peter Academy</strong> (YouTube). Helping 600+ students master Chemistry.</p>
+                    <a href="https://youtu.be/PdGD4hQZnws?si=zR4efnxQdvAFaaCq" target="_blank">Watch: "Second Semester, Second Chance" <i class="fa-solid fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="teaching">
+        <div class="container">
+            <h1 class="sub-title">Teaching Experience</h1>
+            <p class="section-intro hidden">Simplifying complex chemistry concepts for global students via Peter Academy.</p>
+            
+            <div class="video-list">
+                
+                <div class="video-card hidden">
+                    <div class="video-thumbnail-placeholder">
+                        <i class="fa-brands fa-youtube"></i>
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="views-badge"><i class="fa-solid fa-eye"></i> 600+ Views</span>
+                        </div>
+                        <h3>Atom, Molecules and Intermolecular Forces</h3>
+                        <p>A foundational breakdown of atomic structure and bonding forces.</p>
+                        <a href="https://youtu.be/6vphZHzCQD8?si=4CSnl-6ph5KEQLSH" target="_blank" class="watch-btn">
+                            Watch Lesson <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="video-card hidden">
+                    <div class="video-thumbnail-placeholder">
+                        <i class="fa-brands fa-youtube"></i>
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="views-badge"><i class="fa-solid fa-eye"></i> 300+ Views</span>
+                        </div>
+                        <h3>Reaction Kinetics</h3>
+                        <p>Understanding rates of reaction and the factors affecting them.</p>
+                        <a href="https://youtu.be/6vphZHzCQD8?si=4CSnl-6ph5KEQLSH" target="_blank" class="watch-btn">
+                            Watch Lesson <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="video-card hidden">
+                    <div class="video-thumbnail-placeholder">
+                        <i class="fa-brands fa-youtube"></i>
+                        <div class="play-button"></div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-meta">
+                            <span class="views-badge"><i class="fa-solid fa-eye"></i> 100+ Views</span>
+                        </div>
+                        <h3>Symmetry and Point Group</h3>
+                        <p>An introduction to molecular symmetry and classification.</p>
+                        <a href="https://youtu.be/_m-59A4JJAs?si=cNK_jMW6bc4wYpSm" target="_blank" class="watch-btn">
+                            Watch Lesson <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://youtube.com/@peter_academy" target="_blank" class="btn see-more yt-btn"><i class="fa-brands fa-youtube"></i> Visit Peter Academy</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> pajibodu609@stu.ui.edu.ng</p>
+                    <p><i class="fa-solid fa-envelope"></i> ajibodupeter001@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/peramide"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/peter-ajibodu/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@peter_academy"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="mailto:ajibodupeter001@gmail.com?subject=Request for CV - [Their Name]" class="btn btn-secondary">Request CV</a>
+                </div>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2025 Peter Ajibodu. Built with <i class="fa-solid fa-heart"></i> & Code.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
